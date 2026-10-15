@@ -11,7 +11,7 @@ st.write("输入使用者特征，预测PRS分数并给出改善建议。")
 @st.cache_data
 def load_and_train():
     # 你的具体路径
-    file_path = r"C:\Users\zhang\Desktop\E2\model_data.csv"
+    file_path = "model_data.csv"
     
     df = pd.read_csv(file_path)
     
